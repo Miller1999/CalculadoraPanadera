@@ -1,0 +1,84 @@
+//Variables
+
+//let x = parseFloat(prompt('Ponga el primer numero'));
+//let y = parseFloat(prompt('Ponga el segundo numero'));
+//let operacion = prompt('Que operacion desea hacer');
+
+//Suma
+
+function suma(x,y)
+{
+    return x + y;
+}
+
+//Resta
+
+function resta(x,y)
+{
+    return x - y;
+}
+
+//Multiplicacion
+
+function multiplicacion(x,y)
+{
+    return x * y;
+}
+
+//División
+
+function division(x,y)
+{
+    return x/y;
+}
+
+//Raiz Cuadrada
+
+function raiz(x,y)
+{
+    return Math.sqrt(x);
+}
+
+//Potencia
+
+function potencia(x,y)
+{
+    return Math.pow(x,y);
+}
+
+//Residuo
+
+function residuo(x,y)
+{
+    return x%y;
+}
+
+//operacion = operacion.toLowerCase();
+
+/*switch (operacion) {
+    case 'suma':
+        alert('El resultado de tu ' + operacion + ' es: ' + suma(x,y));
+        break;
+    case 'resta':
+        alert('El resultado de tu ' + operacion + ' es: ' + resta(x,y));
+        break;
+    case 'multiplicacion':
+        alert('El resultado de tu ' + operacion + ' es: ' + multiplicacion(x,y));
+        break;
+    case 'division':
+        alert('El resultado de tu ' + operacion + ' es: ' + division(x,y));
+        break;
+    case 'raiz':
+        alert('El resultado de tu ' + operacion + ' es: ' + raiz(x,y));
+        break;
+    case 'potencia':
+        alert('El resultado de tu ' + operacion + ' es: ' + potencia(x,y));
+        break;
+    case 'residuo':
+    alert('El resultado de tu ' + operacion + ' es: ' + residuo(x,y));
+    break;
+    default:
+        alert('No se hacer eso')
+        break;
+}
+*/

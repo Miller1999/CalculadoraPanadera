@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body onload="init();" class="fondo">
+<section class="calc">
+    <div class="display">
+        <span class="inputn" id="resultado"></span>
+    </div>
+    <div class="teclado">
+        <div class="tecladon">
+            <div>
+                <button class="buttonn" id="siete">7</button>
+                <button class="buttonn" id="ocho">8</button>
+                <button class="buttonn" id="nueve">9</button>
+            </div>
+            <div>
+                <button class="buttonn" id="cuatro">4</button>
+                <button class="buttonn" id="cinco">5</button>
+                <button class="buttonn" id="seis">6</button>
+            </div>
+            <div>
+                <button class="buttonn" id="uno">1</button>
+                <button class="buttonn" id="dos">2</button>
+                <button class="buttonn" id="tres">3</button>
+            </div>
+            <div>
+                <button style="width: 165px;" class="buttonn" id="cero">0</button>
+                <button style="width: 165px;" class="buttono" id="reset">C</button>
+            </div>
+        </div>
+        <div class="tecladoop">
+            <div>
+                <button class="buttono" id="suma">+</button>
+                <button class="buttono" id="resta">-</button>
+            </div>
+            <div>
+                <button class="buttono" id="multiplicacion">X</button>
+                <button class="buttono" id="division">/</button>
+            </div>
+            <div>
+                <button class="buttono" id="potencia">^</button>
+                <button class="buttono" id="raiz">√</button>
+            </div>
+            <div>
+                <button class="buttono" id="residuo">%</button>
+                <button class="buttono"  id="igual">=</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
